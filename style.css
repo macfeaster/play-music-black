@@ -1,0 +1,172 @@
+/**
+  * Google Play Music Black Style
+  * @author Mauritz Zachrisson
+  * @url https://github.com/macfeaster/play-music-black
+  * @version 20161130
+  */
+
+/* Global Styles */
+body, .material, .material .cluster-text-protection, .material .cluster-text-protection::before { background: #111; }
+body { background: #111 !important; }
+.material-card { background: #303030; }
+.cluster .header .cluster-title { color: white; }
+body #main div .lane-content .fade-out:after { background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1)); }
+body #main div .lane-content .material-shadow-z1 .fade-out:after { background: linear-gradient(to right,rgba(48,48,48,0),rgba(48,48,48,1)); }
+.material-card .title { color: white; }
+.material-card .sub-title { color: rgba(255, 255, 255, .7); }
+.material-card .details paper-icon-button.menu-anchor { color: rgba(255, 255, 255, .7); }
+.cluster .header .subtitle { color: rgba(255, 255, 255, .7); }
+h2.title { color: white; }
+#loading-overlay { background-color: rgba(0, 0, 0, 0.7)!important; }
+
+/* App Bar */
+#material-app-bar { background: #333; /* ff5722*/ border: none !important; }
+.paper-tabs-0 #selectionBar.paper-tabs { background: white; }
+#playlist-drawer-button path, #left-nav-open-button path { fill: white !important; }
+#tabsContainer .tab-content.style-scope.paper-tab { color: white; }
+body.qp #material-app-bar #material-one-left .music-logo { background-image: url('https://cdn.rawgit.com/macfeaster/3f2d97676bc1901cdd041dd0212cb390/raw/8cf75fb0ceb3f385c70c9567016edd11974ea9a1/play_music_white.svg'); }
+#material-app-bar #countSummary, #material-app-bar #action-bar-container { color: white; }
+
+/* Search Box */
+.sj-search-box-0 { background: rgba(255, 255, 255, .15); }
+.sj-search-box-0 #searchIcon.sj-search-box { color: white !important; }
+.sj-search-box-0 #input.sj-search-box::-webkit-input-placeholder { color: rgba(255, 255, 255, .75); }
+.sj-search-box-0 #input.sj-search-box { color: white !important; }
+.sj-search-box-0[opened], .sj-search-box-0[has-query] { background: #333; }
+.sj-search-box-0 #clearButton.sj-search-box { color: rgba(255, 255, 255, .5); }
+.sj-search-box-0[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #424242; }
+sj-search-suggestion:hover, sj-search-suggestion.query-selected { background: #424242; }
+sj-search-suggestion #queryText.sj-search-suggestion .sub-match.sj-search-suggestion { color: rgba(255, 255, 255, .7); }
+
+/* Home */
+.column .material-card .title, .recommended-header { color: white !important; }
+.column .material-card .sub-title { color: rgba(255, 255, 255, .7) !important; }
+.material-card .reason .reason-text { color: rgba(255, 255, 255, .5) !important; }
+.sj-home-0 #gradient.sj-home { background: linear-gradient(to top, #111, rgba(0,0,0,.3)), linear-gradient(to right, #111, rgba(0,0,0,.3)) !important; }
+sj-home .home-palette-id-1 { color: white !important; }
+.sj-home-0 #backgroundColor.sj-home { background: #111 !important; }
+.gpm-card-grid-1 sj-card { background: #333 !important; }
+.gpm-card-grid-1 sj-card .card-title { color: white !important; }
+.gpm-card-grid-1 sj-card .card-description { color: rgba(255, 255, 255, .7) !important; }
+
+/* Recent Activity */
+.recent-view #gridTitle { color: white !important; }
+.recent-view .details .card-title { color: white !important; }
+.recent-view .details .card-subtitle { color: rgba(255, 255, 255, .7) !important; }
+
+/* Playlists, albums etc */
+#music-content.material { background: transparent; }
+.material-playlist-container, .material-album-container, .songlist-container, .material-detail-view .artist-details { background: #212121 !important; }
+.material .song-row td, .material .upload-progress-row td { background: #212121; color: rgba(255, 255, 255, .7); }
+.material .song-row.selected-song-row td, .material .song-row.currently-playing td { background: #272727 !important; }
+.song-row .title-right-items { color: rgba(255, 255, 255, .7); }
+.material .song-table [data-col="title"], .material .song-table.mini [data-col="song-details"] .song-title { color: rgba(255, 255, 255, .7); }
+tr.song-row a { color: rgba(255, 255, 255, .7); }
+.song-table th { color: rgba(255, 255, 255, .5); }
+.song-row:hover > td { background-color: #282828 !important; }
+/* .material .song-row .song-indicator { background-image: url('ani_equalizer_white.gif'); background-size: 20px 20px; } */
+.material-container-details .info .title .title-text { color: white; }
+.sub-details a { color: white; }
+.material-detail-view .material-container-details .info .container-stats-container .container-stats, .material-detail-view .material-container-details .info .container-stats-container .container-stats span { color: rgba(255, 255, 255, .7); }
+.material-container-details .info .sub-details paper-icon-button { color: white; }
+gpm-action-buttons { border-top: 1px solid #333; color: rgba(255, 255, 255, .7); }
+.song-table th iron-icon { color: rgba(255, 255, 255, .7); }
+.rating-container.thumbs li { -webkit-filter: brightness(500%); }
+.fade-out.gray:after { background: linear-gradient(to right,rgba(17,17,17,0),rgba(17,17,17,1)); }
+.song-indicator[data-playback-status="playing"] { background-image: url('http://i68.tinypic.com/2qmq3v4.gif')!important; }
+.song-indicator[data-playback-status="paused"] { background-image: url('http://i67.tinypic.com/2je42zl.png')!important; background-size: 100%!important; background-position: -1px -3px!important; }
+.song-indicator[data-playback-status="loading"] { background-image: url('http://i65.tinypic.com/2lvijht.gif')!important; background-size: 60%!important; }
+.material-detail-view .material-container-details .info .title { color: white; }
+.playlist-view .editable:hover { background: rgba(255, 255, 255, .1); }
+
+/* Artist Pages */
+.material-detail-view .artist-details { color: white; }
+.material-detail-view .artist-details .bio-wrapper .bio { color: rgba(255, 255, 255, .7); }
+.material-detail-view .material-container-details .read-more-button:hover { background: #333; }
+body.qp .material .cluster-text-protection::before, body.qp .material .cluster-text-protection { background: #111; }
+
+/* Player */
+#player { background: #212121; }
+#currently-playing-title { color: white; }
+#player-artist, .player-album, .player-dash { color: rgba(255, 255, 255, .7); }
+#player .now-playing-actions paper-icon-button { color: rgba(255, 255, 255, .7); }
+#player-bar-forward iron-icon, #player-bar-rewind iron-icon, #material-volume-indicator, #material-volume-low { fill: rgba(255, 255, 255, .7); }
+.paper-progress-0 #progressContainer.paper-progress, .paper-progress-0 .indeterminate.paper-progress::after { }
+#player paper-icon-button[data-id="repeat"], #player paper-icon-button[data-id="shuffle"], #queue { color: rgba(255, 255, 255, .7); }
+.paper-icon-button-0 #ink.paper-icon-button { color: white; }
+#player:hover #material-player-progress:not([disabled]) #progressContainer { background: #424242; }
+
+/* Left Drawer */
+#nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #111; }
+.nav-item-container { color: #fff; }
+#nav .nav-section.material, #nav.material { background: #111; }
+#nav_collections .nav-item-container:focus, .nav-item-container:focus, .nav-item-container:hover { background: #212121; }
+.new-playlist-drawer .nav-section-divider { border-bottom: 1px solid #333; }
+.nav-item-container.selected { background: #333; }
+.new-playlist-drawer #nav-container .nav-toolbar .menu-logo { content: url('https://cdn.rawgit.com/macfeaster/3f2d97676bc1901cdd041dd0212cb390/raw/8cf75fb0ceb3f385c70c9567016edd11974ea9a1/play_music_white.svg'); }
+
+/* Right Drawer */
+sj-right-drawer #drawer.sj-right-drawer { background: #111; }
+#playlist-drawer paper-header-panel[at-top] paper-toolbar:not([style-scope]):not(.style-scope) { border-bottom: 1px solid #333; }
+.paper-toolbar-1 { background: #111; color: white; }
+#playlist-drawer #playlist-drawer-header { color: white; }
+#playlist-drawer a { color: white; }
+#playlist-drawer .autoplaylist-section, #playlist-drawer #recent-playlists-container { border-bottom: 1px solid #333; }
+#playlist-drawer .playlist-drawer-item .playlist-wrapper:hover, #playlist-drawer .playlist-drawer-item .playlist-wrapper:focus, #playlist-drawer .playlist-drawer-item sj-play-button:hover~.playlist-wrapper, #playlist-drawer .playlist-drawer-item iron-icon:hover~.playlist-wrapper, #playlist-drawer .playlist-drawer-item.playlist-drop-target:not(.subscribed) .playlist-wrapper { background: #272727; }
+
+/* Queue */
+.material .song-row [data-col="rating"][data-rating="4"], .material .song-row [data-col="rating"][data-rating="5"] { background: no-repeat url('https://play-music.gstatic.com/fe/0e827333a1c544619f9618797bfb876c/sprites.png') -1000px 0 #212121; }
+#queue-overlay::after { border: 8px solid #212121; }
+.sj-mini-queue-0 #queueContainer.sj-mini-queue { background: #212121; }
+
+/* Modals */
+.iron-overlay-backdrop-0 { background: black; }
+.paper-dialog-0 { background: #333; color: #fff; }
+.paper-input-container-0 .input-content.paper-input-container  input, .paper-input-container-0 .input-content.paper-input-container  textarea, .paper-input-container-0 .input-content.paper-input-container  iron-autogrow-textarea, .paper-input-container-0 .input-content.paper-input-container  .paper-input-input { color: white; }
+.share-buttons .share-button .button-label { color: white; }
+.visualizercard { background: #212121; }
+.visualizercard .label { color: white; }
+.material-share-options #sharing-option-label { color: #fff; }
+
+/* Listen Now etc */
+.situations-filter { background: #212121; color: white; }
+.filter-description { color: rgba(255, 255, 255, .7) !important; }
+.material-list li:not(:last-child) .li-content { border-bottom: 1px solid #333; }
+.material-list a { color: white; }
+.material-list li a:hover, .material-list li a:focus { background: #272727; }
+.radio-selection.material { background: transparent; }
+.material-detail-view .station-container-content-wrapper .material-container-details { background: #212121; }
+.sub-details { color: rgba(255, 255, 255, .7); }
+.material-detail-view .material-container-details .info .description { color: white; }
+
+/* Top Tracks, New Releases etc */
+.material-detail-view .top-tracks { background: #212121; color: white; }
+.more-songs-container { border-top: 1px solid #333; }
+
+/* Context Menus */
+.playlist-menu, .goog-menuitem, .goog-menuitem-content, .now-playing-menu, .goog-menu-vertical { color: rgb(200, 200, 200)!important; background: #333 !important; }
+.material .goog-menu .goog-menuseparator { background: #424242 !important; }
+.material .goog-menuheader { color: rgba(255, 255, 255, .5) !important; }
+.goog-menuitem:hover { background: #363636 !important; }
+.goog-menuitem:hover > .goog-menuitem-content { color: white !important; background: #363636 !important; }
+
+/* Scroll Bars */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { border-radius: 10px; background: rgba(0, 0, 0, .1); }
+::-webkit-scrollbar-thumb { border-radius: 10px; background: rgba(0, 0, 0, .5); }
+
+/* Account Switcher etc */
+#gbwa .gb_g .gb_ca, .gb_ja, #gbwa .gb_ga { background-color: rgb(80, 80, 80)!important; }
+#gbwa .gb_g { border: none!important; }
+#gbwa .gb_Z .gb_O { color: white!important; }
+#gbwa .gb_Z .gb_O:hover { color: black!important; }
+#gbwa .gb_ha a { color: rgba(255, 255, 255, 0.6)!important; }
+#gbwa .gb_ka { background-color: rgb(60, 60, 60)!important; }
+#gbwa .gb_ka:hover, #gbwa .gb_ka:hover > #gbwa .gb_ha a { color: rgba(255, 255, 255, 1)!important; background-color: rgb(40, 40, 40)!important; }
+#gbwa .gb_ha a { color: rgba(255, 255, 255, 0.6)!important; }
+#gbwa .gb_la { background-color: rgb(60, 60, 60)!important; }
+#gbwa .gb_la:hover { color: rgba(255, 255, 255, 1)!important; background-color: rgb(40, 40, 40)!important; }
+.gb_la { border-color: rgba(255, 255, 255, 0.3)!important; }
+#gbwa .gb_wa { background: rgb(60, 60, 60)!important; }
+#gbwa .gb_wa .gb_ya { color: rgba(255, 255, 255, 0.8)!important; }
+.gb_fa .gb_ea .gb_b { background-position: -60px -1675px; opacity: 1; }
