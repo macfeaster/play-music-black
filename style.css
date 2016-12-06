@@ -5,6 +5,8 @@
   * @version 20161130
   */
 
+@-moz-document url-prefix("https://play.google.com/music/listen") {
+ 
 /* Global Styles */
 body, .material, .material .cluster-text-protection, .material .cluster-text-protection::before { background: #111; }
 body { background: #111 !important; }
@@ -22,10 +24,10 @@ h2.title { color: white; }
 /* App Bar */
 #material-app-bar { background: #333; /* ff5722*/ border: none !important; }
 .paper-tabs-0 #selectionBar.paper-tabs { background: white; }
-#playlist-drawer-button path, #left-nav-open-button path { fill: white !important; }
 #tabsContainer .tab-content.style-scope.paper-tab { color: white; }
 body.qp #material-app-bar #material-one-left .music-logo { background-image: url('https://cdn.rawgit.com/macfeaster/3f2d97676bc1901cdd041dd0212cb390/raw/8cf75fb0ceb3f385c70c9567016edd11974ea9a1/play_music_white.svg'); }
 #material-app-bar #countSummary, #material-app-bar #action-bar-container { color: white; }
+#left-nav-open-button:after, #playlist-drawer-button:after { filter: invert(1) !important; opacity: 1 !important; }
 
 /* Search Box */
 .sj-search-box-0 { background: rgba(255, 255, 255, .15); }
@@ -98,6 +100,7 @@ body.qp .material .cluster-text-protection::before, body.qp .material .cluster-t
 
 /* Left Drawer */
 #nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #111; }
+#nav-container { border: none !important; }
 .nav-item-container { color: #fff; }
 #nav .nav-section.material, #nav.material { background: #111; }
 #nav_collections .nav-item-container:focus, .nav-item-container:focus, .nav-item-container:hover { background: #212121; }
@@ -170,3 +173,6 @@ sj-right-drawer #drawer.sj-right-drawer { background: #111; }
 #gbwa .gb_wa { background: rgb(60, 60, 60)!important; }
 #gbwa .gb_wa .gb_ya { color: rgba(255, 255, 255, 0.8)!important; }
 .gb_fa .gb_ea .gb_b { background-position: -60px -1675px; opacity: 1; }
+#gbwa>div:first-child>a:after { filter: invert(1) !important; -webkit-filter: invert(1) !important; opacity: 1 !important; }
+
+}
