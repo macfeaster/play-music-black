@@ -6,7 +6,7 @@
   */
 
 @-moz-document url-prefix("https://play.google.com/music/listen") {
- 
+
 /* Global Styles */
 body, .material, .material .cluster-text-protection, .material .cluster-text-protection::before { background: #111; }
 body { background: #111 !important; }
@@ -28,17 +28,22 @@ h2.title { color: white; }
 body.qp #material-app-bar #material-one-left .music-logo { background-image: url('https://cdn.rawgit.com/macfeaster/3f2d97676bc1901cdd041dd0212cb390/raw/8cf75fb0ceb3f385c70c9567016edd11974ea9a1/play_music_white.svg'); }
 #material-app-bar #countSummary, #material-app-bar #action-bar-container { color: white; }
 #left-nav-open-button:after, #playlist-drawer-button:after { filter: invert(1) !important; opacity: 1 !important; }
+#playlist-drawer-button.paper-icon-button-0 iron-icon.paper-icon-button { color: white; }
+#left-nav-open-button.paper-icon-button-0 iron-icon.paper-icon-button { color: white; }
+body.qp #content-container.has-hero-image #material-app-bar #material-one-left .music-logo-link { display: block; }
+body.qp #content-container.has-hero-image.transparent #material-app-bar #material-one-left .music-logo-link { display: none; }
 
 /* Search Box */
 .sj-search-box-0 { background: rgba(255, 255, 255, .15); }
 .sj-search-box-0 #searchIcon.sj-search-box { color: white !important; }
 .sj-search-box-0 #input.sj-search-box::-webkit-input-placeholder { color: rgba(255, 255, 255, .75); }
 .sj-search-box-0 #input.sj-search-box { color: white !important; }
-.sj-search-box-0[opened], .sj-search-box-0[has-query] { background: #333; }
+.sj-search-box-0[opened], .sj-search-box-1[opened], .sj-search-box-0[has-query], .sj-search-box-1[has-query] { background: #333; color: white; }
 .sj-search-box-0 #clearButton.sj-search-box { color: rgba(255, 255, 255, .5); }
-.sj-search-box-0[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #424242; }
+.sj-search-box-0[opened]:not([num-suggestions="0"]) #input.sj-search-box, .sj-search-box-1[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #424242; }
 sj-search-suggestion:hover, sj-search-suggestion.query-selected { background: #424242; }
 sj-search-suggestion #queryText.sj-search-suggestion .sub-match.sj-search-suggestion { color: rgba(255, 255, 255, .7); }
+.sj-search-box-1 #input.sj-search-box { color: white; }
 
 /* Home */
 .column .material-card .title, .recommended-header { color: white !important; }
