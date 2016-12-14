@@ -104,19 +104,19 @@ body.qp .material .cluster-text-protection::before, body.qp .material .cluster-t
 #player:hover #material-player-progress:not([disabled]) #progressContainer { background: #424242; }
 
 /* Left Drawer */
-#nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #111; }
+#nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #161616; }
 #nav-container { border: none !important; }
 .nav-item-container { color: #fff; }
-#nav .nav-section.material, #nav.material { background: #111; }
+#nav .nav-section.material, #nav.material { background: #161616; }
 #nav_collections .nav-item-container:focus, .nav-item-container:focus, .nav-item-container:hover { background: #212121; }
 .new-playlist-drawer .nav-section-divider { border-bottom: 1px solid #333; }
 .nav-item-container.selected { background: #333; }
 .new-playlist-drawer #nav-container .nav-toolbar .menu-logo { content: url('https://cdn.rawgit.com/macfeaster/3f2d97676bc1901cdd041dd0212cb390/raw/8cf75fb0ceb3f385c70c9567016edd11974ea9a1/play_music_white.svg'); }
 
 /* Right Drawer */
-sj-right-drawer #drawer.sj-right-drawer { background: #111; }
+sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 #playlist-drawer paper-header-panel[at-top] paper-toolbar:not([style-scope]):not(.style-scope) { border-bottom: 1px solid #333; }
-.paper-toolbar-1 { background: #111; color: white; }
+.paper-toolbar-1 { background: #161616; color: white; }
 #playlist-drawer #playlist-drawer-header { color: white; }
 #playlist-drawer a { color: white; }
 #playlist-drawer .autoplaylist-section, #playlist-drawer #recent-playlists-container { border-bottom: 1px solid #333; }
