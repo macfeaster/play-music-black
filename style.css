@@ -180,4 +180,163 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 .gb_fa .gb_ea .gb_b { background-position: -60px -1675px; opacity: 1; }
 #gbwa>div:first-child>a:after { filter: invert(1) !important; -webkit-filter: invert(1) !important; opacity: 1 !important; }
 
+/* I have no idea who came up with the whole "tight table" thing, but it's just *not* happening. */
+.song-table.tight th {
+    text-indent: 8px !important;
+}
+.material .song-table.tight .song-row td,
+.material .song-table.tight .upload-progress-row td {
+    height: 64px !important;
+    line-height: 64px !important;
+    max-height: 64px !important;
+    min-height: 64px !important;
+    font-size: 16px !important;
+    border-bottom: none !important;
+}
+.song-table.tight .song-row td {
+    text-indent: 8px !important;
+}
+.material .song-table.tight .song-row .song-indicator {
+    margin: 8px 8px 8px 0 !important;
+    width: 48px !important;
+    height: 48px !important;
+    background-size: 40px 40px !important;
+}
+.material .song-table.tight .song-row [data-col="index"] .song-indicator {
+    left: 2px !important;
+}
+.material .song-table.tight .song-row [data-col="track"] .song-indicator {
+    left: 0 !important;
+    margin-left: 5px !important;
+}
+.material .song-table.tight .song-row .song-indicator[data-playback-status="paused"] {
+    background: no-repeat url(sprites.png) -894px -246px !important;
+    background-color: inherit !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min--moz-device-pixel-ratio: 1.5),
+screen and (-o-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 1.5dppx) {
+    .material .song-table.tight .song-row .song-indicator[data-playback-status="paused"] {
+        background: no-repeat url(sprites.png) -332px -33px !important;
+        -webkit-background-size: 532px 250px !important;
+        -moz-background-size: 532px 250px !important;
+        -o-background-size: 532px 250px !important;
+        background-size: 532px 250px !important;
+        background-color: inherit !important;
+    }
+}
+.material .song-table.tight .song-row paper-icon-button[data-id="menu"] {
+    margin: 12px 0 0 0 !important;
+}
+.material .song-table.tight .song-row .rating-container.thumbs [data-rating="5"] {
+    margin-top: 18px !important;
+}
+.material .song-table.tight .song-row .rating-container.thumbs [data-rating="1"] {
+    margin-top: 18px !important;
+}
+.material .song-table.tight .song-row [data-col="rating"][data-rating="4"],
+.material .song-table.tight .song-row [data-col="rating"][data-rating="5"] {
+    background: no-repeat url(sprites.png) -596px 0
+}
+.material .song-table.tight .song-row [data-col="rating"][data-rating="1"],
+.material .song-table.tight .song-row [data-col="rating"][data-rating="2"] {
+    background: no-repeat url(sprites.png) -768px -260px
+}
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+screen and (min--moz-device-pixel-ratio: 1.5),
+screen and (-o-min-device-pixel-ratio: 1.5),
+screen and (min-resolution: 1.5dppx) {
+    .material .song-table.tight .song-row [data-col="rating"][data-rating="4"],
+    .material .song-table.tight .song-row [data-col="rating"][data-rating="5"] {
+        background: no-repeat url(sprites.png) -273px -178px !important;
+        -webkit-background-size: 532px 250px !important;
+        -moz-background-size: 532px 250px !important;
+        -o-background-size: 532px 250px !important;
+        background-size: 532px 250px
+    }
+    .material .song-table.tight .song-row [data-col="rating"][data-rating="1"],
+    .material .song-table.tight .song-row [data-col="rating"][data-rating="2"] {
+        background: no-repeat url(sprites.png) 0 -78px !important;
+        -webkit-background-size: 532px 250px !important;
+        -moz-background-size: 532px 250px !important;
+        -o-background-size: 532px 250px !important;
+        background-size: 532px 250px
+    }
+}
+.material .song-table.tight .song-row .hover-button[data-id="play"] {
+    top: 8px !important;
+    left: 0px !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+.material .song-table.tight .song-row [data-col="index"] .hover-button[data-id="play"],
+.material .song-table.tight .song-row [data-col="track"] .hover-button[data-id="play"] {
+    left: 10px !important;
+    width: 48px !important;
+    height: 48px !important;
+}
+.material .song-table.tight .song-row [data-col="radio"] iron-icon {
+    margin: 8px !important;
+}
+.song-table.tight .song-row .column-content {
+    height: 64px !important;
+}
+.material .song-table.tight [data-col="title"] img,
+.material .song-table.mini.tight [data-col="song-details"] img {
+    height: 48px !important;
+    width: 48px !important;
+    padding: 8px 8px 8px 0 !important;
+}
+.song-table.mini.tight th[data-col="song-artist"] {
+    text-indent: 64px !important;
+}
+.material .song-table.mini.tight .song-details-wrapper {
+    margin-top: 12px !important;
+    left: 64px !important;
+}
+.material .song-table.mini.tight .song-details-wrapper .song-title {
+    font-size: 15px !important;
+}
+.material .song-table.mini.tight .song-details-wrapper .song-artist-album {
+    height: 16px !important;
+    margin-top: 4px !important;
+    font-size: 13px !important;
+    line-height: 16px !important;
+    /* color */
+}
+.material .song-table.mini.tight .song-details-wrapper .song-artist-album a { /* color */ }
+.material-drag.tight-song-row {
+    height: 50px !important;
+    width: 50px !important;
+}
+.material-drag.tight-song-row .song-drag-label {
+    right: -15px !important;
+    bottom: -15px !important;
+}
+.material-drag.tight-song-row .song-drag-images {
+    width: 50px !important;
+    height: 50px !important;
+}
+.song-table.tight .song-row paper-button {
+    margin: 18px 0 0 6px !important;
+}
+.song-table.tight .song-row .aria-play-button {
+    left: 10px !important;
+    top: 10px !important;
+}
+.song-table.tight .song-row .aria-play-button-container .aria-play-button {
+    top: 8px !important;
+    height: 48px !important;
+    width: 48px !important;
+}
+.material .song-table.tight .podcast-row.song-row [data-col="index"] .hover-button[data-id="play"] {
+    left: -10px !important;
+}
+.material .song-table.tight .podcast-row.song-row [data-col="index"] .song-indicator {
+    left: -10px !important;
+}
+ 
 }
