@@ -20,6 +20,8 @@ body #main div .lane-content .material-shadow-z1 .fade-out:after { background: l
 .cluster .header .subtitle { color: rgba(255, 255, 255, .7); }
 h2.title { color: white; }
 #loading-overlay { background-color: rgba(0, 0, 0, 0.7)!important; }
+.gpm-detail-page-header-0 div.gpm-detail-page-header h2, .gpm-detail-page-header-0 div.gpm-detail-page-header > [slot="buttons"] { color: #ddd !important; }
+.gpm-detail-page-header-0 div.gpm-detail-page-header a, .gpm-detail-page-header-0 div.gpm-detail-page-header span { color: #aaa !important; }
 
 /* App Bar */
 #material-app-bar { background: #333; /* ff5722*/ border: none !important; }
