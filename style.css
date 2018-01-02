@@ -105,9 +105,13 @@ gpm-action-buttons { border-top: 1px solid #333; color: rgba(255, 255, 255, .7);
 .song-table th iron-icon { color: rgba(255, 255, 255, .7); }
 .rating-container.thumbs li { -webkit-filter: brightness(500%); }
 .fade-out.gray:after { background: linear-gradient(to right,rgba(17,17,17,0),rgba(17,17,17,1)); }
-.song-indicator[data-playback-status="playing"] { background-image: url('http://i68.tinypic.com/2qmq3v4.gif')!important; }
-.song-indicator[data-playback-status="paused"] { background-image: url('http://i67.tinypic.com/2je42zl.png')!important; background-size: 100%!important; background-position: -1px -3px!important; }
-.song-indicator[data-playback-status="loading"] { background-image: url('http://i65.tinypic.com/2lvijht.gif')!important; background-size: 60%!important; }
+.queue-song-table .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; }
+.queue-song-table .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: rgba(255,255,255,.95)!important }
+.queue-song-table .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; }
+.songlist-container .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; transform: scale(.6) translateX(-32px); }
+.songlist-container .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: #fff!important; transform: translateX(-18.5px) translateY(.8px); }
+.songlist-container .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; transform: scale(.6) translateX(-32px); }
+.songlist-container iron-icon.hover-button { color: #ddd !important; transform: translateX(-26px); }
 .material-detail-view .material-container-details .info .title { color: white; }
 .playlist-view .editable:hover { background: rgba(255, 255, 255, .1); }
 h2.section-header { color: #fff; }
@@ -124,7 +128,7 @@ body.qp .material .cluster-text-protection::before, body.qp .material .cluster-t
 #currently-playing-title { color: white; }
 #player-artist, .player-album, .player-dash { color: rgba(255, 255, 255, .7); }
 #player .now-playing-actions paper-icon-button { color: rgba(255, 255, 255, .7); }
-#player-bar-forward iron-icon, #player-bar-rewind iron-icon, #material-volume-indicator, #material-volume-low, #material-volume-high { fill: rgba(255, 255, 255, .7); }
+#player-bar-forward iron-icon, #player-bar-rewind iron-icon, paper-icon-button[data-id="cast"] iron-icon, #material-volume-indicator, #material-volume-low, #material-volume-high { fill: rgba(255, 255, 255, .7); }
 .paper-progress-0 #progressContainer.paper-progress, .paper-progress-0 .indeterminate.paper-progress::after { }
 #player paper-icon-button[data-id="repeat"], #player paper-icon-button[data-id="shuffle"], #queue { color: rgba(255, 255, 255, .7); }
 .paper-icon-button-0 #ink.paper-icon-button { color: white; }
