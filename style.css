@@ -35,6 +35,7 @@ body.qp #material-app-bar #material-one-left .music-logo { background-image: url
 body.qp #content-container.has-hero-image #material-app-bar #material-one-left .music-logo-link { display: block; }
 body.qp #content-container.has-hero-image.transparent #material-app-bar #material-one-left .music-logo-link { display: none; }
 .sj-search-box-1 { background-color: #383838; }
+body.qp #sliding-action-bar-container { background-color: #333; color: rgba(255, 255, 255, .7); }
 
 /* Search Box */
 .sj-search-box-0 { background: rgba(255, 255, 255, .15); }
@@ -220,5 +221,8 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 
 /* Various fixes, like the f*cking Holo context menu on the Now Playing bar */
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
+
+/* Iron-icon */
+.iron-icon-1 { color: rgba(255, 255, 255, .7); }
 
 }
