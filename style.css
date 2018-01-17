@@ -222,7 +222,7 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 /* Various fixes, like the f*cking Holo context menu on the Now Playing bar */
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
 
-/* Iron-icon */
-.iron-icon-1 { color: rgba(255, 255, 255, .7); }
+/* material-player-middle */
+#player .material-player-middle .paper-icon-button { color: rgba(255, 255, 255, .7) ;}
 
 }
