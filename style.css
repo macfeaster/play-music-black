@@ -134,9 +134,10 @@ body.qp .material .cluster-text-protection::before, body.qp .material .cluster-t
 #player .now-playing-actions paper-icon-button { color: rgba(255, 255, 255, .7); }
 #player-bar-forward iron-icon, #player-bar-rewind iron-icon, paper-icon-button[data-id="cast"] iron-icon, #material-volume-indicator, #material-volume-low, #material-volume-high { fill: rgba(255, 255, 255, .7); }
 .paper-progress-0 #progressContainer.paper-progress, .paper-progress-0 .indeterminate.paper-progress::after { }
-#player paper-icon-button[data-id="repeat"], #player paper-icon-button[data-id="shuffle"], #queue { color: rgba(255, 255, 255, .7); }
+#player paper-icon-button, #queue { color: rgba(255, 255, 255, .7); }
 .paper-icon-button-0 #ink.paper-icon-button { color: white; }
 #player:hover #material-player-progress:not([disabled]) #progressContainer { background: #424242; }
+#player paper-icon-button { color: rgba(255, 255, 255, .7) ;}
 
 /* Left Drawer */
 #nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #161616; }
@@ -221,8 +222,5 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 
 /* Various fixes, like the f*cking Holo context menu on the Now Playing bar */
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
-
-/* material-player-middle */
-#player .material-player-middle .paper-icon-button { color: rgba(255, 255, 255, .7) ;}
 
 }
