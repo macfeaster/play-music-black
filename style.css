@@ -222,5 +222,6 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 
 /* Various fixes, like the f*cking Holo context menu on the Now Playing bar */
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
+.spinner { background-color: transparent !important; filter: invert(1); }
 
 }
