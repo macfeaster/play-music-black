@@ -218,7 +218,7 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 .gb_fa .gb_ea .gb_b { filter: invert(1); opacity: 1; }
 #gbwa>div:first-child>a:after, #gbwa > div.gb_Fc > a { filter: invert(1) !important; -webkit-filter: invert(1) !important; opacity: 1 !important; }
 .gb_za .gb_ia { background: #444; }
-.gb_Nc .gb_b.gb_dc, .gb_b.gb_cc { filter: invert(1); opacity: 1; }
+.gb_Nc .gb_b.gb_dc, .gb_b.gb_cc, .gb_b.gb_ec { filter: invert(1); opacity: 1; }
 
 /* Various fixes, like the f*cking Holo context menu on the Now Playing bar */
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
