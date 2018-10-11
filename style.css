@@ -2,7 +2,7 @@
   * Google Play Music Black Style
   * @author Mauritz Zachrisson
   * @url https://github.com/macfeaster/play-music-black
-  * @version 20180208
+  * @version 20181011
   */
 
 @-moz-document url-prefix("https://play.google.com/music/listen") {
@@ -12,7 +12,7 @@ body, .material, .material .cluster-text-protection, .material .cluster-text-pro
 body { background: #111 !important; }
 .material-card { background: #303030; }
 .cluster .header .cluster-title { color: white; }
-body #main div .lane-content .fade-out:after { background: linear-gradient(to right,rgba(0,0,0,0),rgba(0,0,0,1)); }
+body #main div .lane-content .fade-out:after { background: linear-gradient(to right,rgba(0,0,0,0),#111); }
 body #main div .lane-content .material-shadow-z1 .fade-out:after { background: linear-gradient(to right,rgba(48,48,48,0),rgba(48,48,48,1)); }
 .material-card .title { color: white; }
 .material-card .sub-title { color: rgba(255, 255, 255, .7); }
@@ -106,8 +106,8 @@ gpm-action-buttons { border-top: 1px solid #333; color: rgba(255, 255, 255, .7);
 .song-table th iron-icon { color: rgba(255, 255, 255, .7); }
 .rating-container.thumbs li { -webkit-filter: brightness(500%); }
 .fade-out.gray:after { background: linear-gradient(to right,rgba(17,17,17,0),rgba(17,17,17,1)); }
-.song-table.tight[data-type="ap"] .song-indicator[data-playback-status="playing"], .queue-song-table .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; transform: none; }
-.song-table.tight[data-type="ap"] .song-indicator[data-playback-status="paused"], .queue-song-table .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: rgba(255,255,255,.95)!important; transform: none; }
+.song-table.tight[data-type="ap"] .song-indicator[data-playback-status="playing"], .song-table.tight[data-type="sarts"] .song-indicator[data-playback-status="playing"], .queue-song-table .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; transform: none; }
+.song-table.tight[data-type="ap"] .song-indicator[data-playback-status="paused"], .song-table.tight[data-type="sarts"] .song-indicator[data-playback-status="paused"], .queue-song-table .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: rgba(255,255,255,.95)!important; transform: none; }
 .song-table.tight[data-type="ap"] .song-indicator[data-playback-status="loading"], .queue-song-table .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; transform: none; }
 .songlist-container .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; transform: scale(.6) translateX(-32px); }
 .songlist-container .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: #fff!important; transform: translateX(-18.5px) translateY(.8px); }
@@ -218,7 +218,7 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 .gb_fa .gb_ea .gb_b { filter: invert(1); opacity: 1; }
 #gbwa>div:first-child>a:after, #gbwa > div.gb_Fc > a { filter: invert(1) !important; -webkit-filter: invert(1) !important; opacity: 1 !important; }
 .gb_za .gb_ia { background: #444; }
-.gb_Nc .gb_b.gb_dc, .gb_b.gb_cc, .gb_b.gb_ec { filter: invert(1); opacity: 1; }
+.gb_Nc .gb_b.gb_dc, .gb_b.gb_cc, .gb_b.gb_ec, .gb_b.gb_fc, .gb_b.gb_gc { filter: invert(1); opacity: 1; }
 
 /* Various fixes, like the f*cking Holo context menu on the Now Playing bar */
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
