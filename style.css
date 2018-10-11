@@ -108,12 +108,12 @@ gpm-action-buttons { border-top: 1px solid #333; color: rgba(255, 255, 255, .7);
 .fade-out.gray:after { background: linear-gradient(to right,rgba(17,17,17,0),rgba(17,17,17,1)); }
 .song-table.tight[data-type="ap"] .song-indicator[data-playback-status="playing"], .song-table.tight[data-type="sarts"] .song-indicator[data-playback-status="playing"], .queue-song-table .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; transform: none; }
 .song-table.tight[data-type="ap"] .song-indicator[data-playback-status="paused"], .song-table.tight[data-type="sarts"] .song-indicator[data-playback-status="paused"], .queue-song-table .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: rgba(255,255,255,.95)!important; transform: none; }
-.song-table.tight[data-type="ap"] .song-indicator[data-playback-status="loading"], .queue-song-table .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; transform: none; }
+.song-table.tight[data-type="ap"] .song-indicator[data-playback-status="loading"], .song-table.tight[data-type="sarts"] .song-indicator[data-playback-status="loading"], .queue-song-table .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; background-size: 24px 24px!important; background-color: rgba(0,0,0,.8)!important; transform: none; }
 .songlist-container .song-indicator[data-playback-status="playing"] { background-image: url('https://play.google.com/music/ani_equalizer_white.gif')!important; transform: scale(.6) translateX(-32px); }
 .songlist-container .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: #fff!important; transform: translateX(-18.5px) translateY(.8px); }
 .songlist-container .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; transform: scale(.6) translateX(-32px); }
 .songlist-container iron-icon.hover-button { color: #ddd !important; transform: translateX(-26px); }
-.song-table.tight[data-type="ap"] iron-icon.hover-button { transform: none; }
+.song-table.tight[data-type="ap"] iron-icon.hover-button, .song-table.tight[data-type="sarts"] iron-icon.hover-button { transform: none; }
 .material-detail-view .material-container-details .info .title { color: white; }
 .playlist-view .editable:hover { background: rgba(255, 255, 255, .1); }
 h2.section-header { color: #fff; }
@@ -137,7 +137,8 @@ body.qp .material .cluster-text-protection::before, body.qp .material .cluster-t
 #player paper-icon-button, #queue { color: rgba(255, 255, 255, .7); }
 .paper-icon-button-0 #ink.paper-icon-button { color: white; }
 #player:hover #material-player-progress:not([disabled]) #progressContainer { background: #424242; }
-#player paper-icon-button { color: rgba(255, 255, 255, .7) ;}
+#player paper-icon-button { color: rgba(255, 255, 255, .7); }
+#player-bar-play-pause #icon > svg > g > path:nth-child(2) { fill: #222!important; }
 
 /* Left Drawer */
 #nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #161616; }
