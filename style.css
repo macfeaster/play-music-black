@@ -2,7 +2,7 @@
   * Google Play Music Black Style
   * @author Mauritz Zachrisson
   * @url https://github.com/macfeaster/play-music-black
-  * @version 20181011
+  * @version 20190414
   */
 
 @-moz-document url-prefix("https://play.google.com/music/listen") {
@@ -173,6 +173,7 @@ sj-right-drawer #drawer.sj-right-drawer { background: #161616; }
 .visualizercard { background: #212121; }
 .visualizercard .label { color: white; }
 .material-share-options #sharing-option-label { color: #fff; }
+.paper-input-container-0 .input-content.paper-input-container .label-and-input-container.paper-input-container > [slot="input"] { color: #ddd; }
 
 /* Listen Now etc */
 .situations-filter { background: #212121; color: white; }
