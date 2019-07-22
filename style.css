@@ -113,6 +113,7 @@ gpm-action-buttons { border-top: 1px solid #333; color: rgba(255, 255, 255, .7);
 .songlist-container .song-indicator[data-playback-status="paused"] { filter: invert(84.8%)!important; background-color: #fff!important; transform: translateX(-18.5px) translateY(.8px); }
 .songlist-container .song-indicator[data-playback-status="loading"] { background-image: url('https://play.google.com/music/ani_loading_white_x2.gif')!important; transform: scale(.6) translateX(-32px); }
 .songlist-container iron-icon.hover-button { color: #ddd !important; transform: translateX(-26px); }
+.songlist-container iron-icon.hover-button[data-id="play"] { transform: translateX(0); }
 .song-table.tight[data-type="ap"] iron-icon.hover-button, .song-table.tight[data-type="sarts"] iron-icon.hover-button { transform: none; }
 .material-detail-view .material-container-details .info .title { color: white; }
 .playlist-view .editable:hover { background: rgba(255, 255, 255, .1); }
