@@ -18,20 +18,20 @@ To use this style, install [Stylus](https://add0n.com/stylus.html) and then clic
 
 ### Changelog
 
-20190722 - Moved to usercss format with distribution through GitHub instead of deprecated
-20190414 - New Playlist input field now has white text
-20181011 - Play button now dark inside (thanks kandy!), alignment fixes for artist page top song icons
-20180208 - Fixes for podcast skip icons (thanks rgavs!), account switcher patched _again!_ Also fixed context menu loading spinner
-20180102 - New iconography new works properly on auto playlists such as Thumbs up and Last added
-20180101 - Iconography fixes for cast icon and animated list view icons. Thanks a lot for the PR, GladOSkar!
-20171215 - I guess no one uses Top Songs, but now it's black
-20171215 - Fixes for search suggestions, context menus, playlist drawer, and the ever-changing Google app switcher
-20170904 - Thumbs fixed based on feedback, also other fixes
-20170709 - Fix for home background
-20170703 - Monthly fixes for UI uglification
-20170616 - Updates for new ugly UI changes
-20161219 - I have no idea who came up with the whole "tight table" thing, but it's just *not* happening.
-20161214 - Made drawers slightly lighter
-20161212 - Search bar is now always darkened, even if top bar is transparent
-20161206 - Minor tweaks for top bar buttons, which were black in some browsers
-20161130 - Initial release
+* 20190722 - Moved to usercss format with distribution through GitHub instead of deprecated
+* 20190414 - New Playlist input field now has white text
+* 20181011 - Play button now dark inside (thanks kandy!), alignment fixes for artist page top song icons
+* 20180208 - Fixes for podcast skip icons (thanks rgavs!), account switcher patched _again!_ Also fixed context menu loading spinner
+* 20180102 - New iconography new works properly on auto playlists such as Thumbs up and Last added
+* 20180101 - Iconography fixes for cast icon and animated list view icons. Thanks a lot for the PR, GladOSkar!
+* 20171215 - I guess no one uses Top Songs, but now it's black
+* 20171215 - Fixes for search suggestions, context menus, playlist drawer, and the ever-changing Google app switcher
+* 20170904 - Thumbs fixed based on feedback, also other fixes
+* 20170709 - Fix for home background
+* 20170703 - Monthly fixes for UI uglification
+* 20170616 - Updates for new ugly UI changes
+* 20161219 - I have no idea who came up with the whole "tight table" thing, but it's just *not* happening.
+* 20161214 - Made drawers slightly lighter
+* 20161212 - Search bar is now always darkened, even if top bar is transparent
+* 20161206 - Minor tweaks for top bar buttons, which were black in some browsers
+* 20161130 - Initial release
