@@ -126,6 +126,12 @@ h2.section-header { color: #fff; }
 .gpm-detail-page-header-0[description-overflows] #descriptionWrapper.gpm-detail-page-header:hover { background: #333; }
 .song-table.tight .song-row td, .song-table.tight .song-row td:hover { border-bottom: none !important; }
 .song-table.tight .song-row td .title-right-items { height: 40px !important; }
+gpm-detail-page-header div.gpm-detail-page-header > [slot="title"] { color: #ddd !important; }
+gpm-detail-page-header div.gpm-detail-page-header > [slot="subtitle"],
+gpm-detail-page-header div.gpm-detail-page-header > [slot="description"],
+gpm-detail-page-header div.gpm-detail-page-header > [slot="metadata"] { color: #aaa !important; }
+gpm-detail-page-header div.gpm-detail-page-header > [slot="buttons"] { color: #ddd !important; }
+gpm-detail-page-header[description-overflows] #descriptionWrapper.gpm-detail-page-header:hover { background: inherit; }
 
 /* Artist Pages */
 .material-detail-view .artist-details { color: white; }
@@ -147,7 +153,7 @@ body.qp .material .cluster-text-protection::before, body.qp .material .cluster-t
 #player-bar-play-pause #icon > svg > g > path:nth-child(2) { fill: #222!important; }
 
 /* Left Drawer */
-#nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel { background: #161616; }
+#nav-container .nav-toolbar, .paper-drawer-panel-0 iron-selector.paper-drawer-panel > #drawer.paper-drawer-panel, #drawer.paper-drawer-panel { background: #161616 !important; }
 #nav-container { border: none !important; }
 .nav-item-container { color: #fff; }
 #nav .nav-section.material, #nav.material { background: #161616; }
