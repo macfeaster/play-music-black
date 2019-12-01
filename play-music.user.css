@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Play Music - Dark
-@version 2019.12.1
+@version 2019.12.2
 @description This style is not meant to mod the interface in any way, just make it black. 
 @author macfeaster
 @namespace sektor.io
@@ -70,20 +70,23 @@ sj-home #gradient.sj-home { background: linear-gradient(to top, #111, rgba(0,0,0
 sj-home h2 span.home-palette-id-1.tooltip { color: white !important; }
 .sj-home-0 #backgroundColor.sj-home { background: #111 !important; }
 sj-home #backgroundColor.sj-home { background: #111 !important; }
-gpm-card-grid .sj-card-0[card-aspect-ratio="wide"] { background: #333 !important; }
+sj-card[card-aspect-ratio="wide"], gpm-card-grid .sj-card-0[card-aspect-ratio="wide"] { background: #333 !important; }
+sj-card[card-aspect-ratio="wide"] #details.sj-card > [slot="title"], sj-card #details.sj-card > [slot="title"], sj-card[card-aspect-ratio="wide"] #menuButton.sj-card { color: white !important; }
 .sj-card-0[card-aspect-ratio="wide"] #details.sj-card > [slot="title"] { color: #ccc !important; }
 .sj-card-0 #details.sj-card > [slot="title"] { color: #fff !important; }
 .sj-card-0 #details.sj-card > [slot="subtitle"] { color: #ccc !important; }
-.sj-card-0 #details.sj-card > [slot="description"], .gpm-headline-header-0 > [slot="subtitle"] { color: #999 !important; }
+sj-card[card-aspect-ratio="wide"] #details.sj-card > [slot="description"], .sj-card-0 #details.sj-card > [slot="description"], .gpm-headline-header-0 > [slot="subtitle"] { color: #999 !important; }
 sj-home[selected="6"] .home-palette-id-2 { color: #999 !important; }
 .gpm-headline-header-0 h2.gpm-headline-header > a { color: #ccc !important; }
 .sj-page-indicator-0 .sj-page-tab.sj-page-indicator { color: rgba(200, 200, 200, 0.5); }
 .gpm-card-grid-1 sj-card .card-title { color: white !important; }
 .gpm-card-grid-1 sj-card .card-description { color: rgba(255, 255, 255, .7) !important; }
-.gpm-now-card-grid-0 .buttons.gpm-now-card-grid paper-icon-button.gpm-now-card-grid { background-color: rgba(255, 255, 255, 0.2); }
+gpm-now-card-grid .buttons.gpm-now-card-grid paper-icon-button.gpm-now-card-grid, .gpm-now-card-grid-0 .buttons.gpm-now-card-grid paper-icon-button.gpm-now-card-grid { background-color: rgba(255, 255, 255, 0.2); }
 sj-home[selected="0"] .home-palette-id-2, sj-home[selected="1"] .home-palette-id-2, sj-home[selected="2"] .home-palette-id-2, sj-home[selected="3"] .home-palette-id-2, sj-home[selected="4"] .home-palette-id-2,
 sj-home[selected="5"] .home-palette-id-2, sj-home[selected="6"] .home-palette-id-2, sj-home[selected="7"] .home-palette-id-2, sj-home[selected="8"] .home-palette-id-2,
 sj-home[selected="9"] .home-palette-id-2, sj-home[selected="10"] .home-palette-id-2, .home-palette-id-2 { color: #777 !important; }
+sj-home[selected="0"] .home-palette-id-1, sj-home[selected="3"] .home-palette-id-1 { color: white !important; }
+gpm-headline-header h2.gpm-headline-header { color: white !important; }
 
 /* Recent Activity, Top Songs */
 .recent-view #gridTitle { color: white !important; }
@@ -241,7 +244,6 @@ gpm-row-item:not(:last-child) .underline.gpm-row-item { border-bottom-color: #16
 gpm-row-item > a { color: rgba(255,255,255,0.8)!important }
 gpm-vertical-list #items.gpm-vertical-list > *:hover, gpm-vertical-list #items.gpm-vertical-list > *[focused] { background: #282828; }
 gpm-card-grid > [slot="title"] { color: white; }
-sj-card #details.sj-card > [slot="title"] { color: white; }
 
 /* Settings */
 .nuq-view button.quiz-block .name{color: #5f5f5f}
