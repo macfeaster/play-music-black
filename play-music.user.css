@@ -41,6 +41,9 @@ body.qp #content-container.has-hero-image #material-app-bar #material-one-left .
 body.qp #content-container.has-hero-image.transparent #material-app-bar #material-one-left .music-logo-link { display: none; }
 .sj-search-box-1 { background-color: #383838; }
 body.qp #sliding-action-bar-container { background-color: #333; color: rgba(255, 255, 255, .7); }
+#topBar #gb#gb a.gb_D {background-position: 0px -138px; }
+#topBar iron-icon.paper-icon-button { color: #a3a3a3; }
+#topBar iron-icon.paper-icon-button:hover { color: #e0e0e0; }
 
 /* Search Box */
 .sj-search-box-0 { background: rgba(255, 255, 255, .15); }
