@@ -43,23 +43,20 @@ body.qp #content-container.has-hero-image.transparent #material-app-bar #materia
 body.qp #sliding-action-bar-container { background-color: #333; color: rgba(255, 255, 255, .7); }
 
 /* Search Box */
-.sj-search-box-0 { background: rgba(255, 255, 255, .15); }
-.sj-search-box-0 #searchIcon.sj-search-box { color: white !important; }
-.sj-search-box-0 #input.sj-search-box::-webkit-input-placeholder { color: rgba(255, 255, 255, .75); }
-.sj-search-box-0 #input.sj-search-box { color: white !important; }
-.sj-search-box-0[opened], .sj-search-box-1[opened], .sj-search-box-0[has-query], .sj-search-box-1[has-query] { background: #333; color: white; }
-.sj-search-box-0 #clearButton.sj-search-box { color: rgba(255, 255, 255, .5); }
-.sj-search-box-0[opened]:not([num-suggestions="0"]) #input.sj-search-box, .sj-search-box-1[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #424242; }
+sj-search-box { background: #111; }
+sj-search-box #searchIcon.sj-search-box { color: white !important; }
+sj-search-box #clearButton.sj-search-box { color: white; }
+sj-search-box[opened], sj-search-box[has-query] { background: #111; color: white; }
+sj-search-box #input.sj-search-box { color: white !important; }
+sj-search-box[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #424242; }
+/* Search Box - Song/Artist Suggestions */
+sj-entity-suggestion #title.sj-entity-suggestion { color: white; }
+sj-entity-suggestion:hover, .sj-entity-suggestion.query-selected { background: #424242; }
+sj-search-box sj-entity-suggestion.sj-search-box:last-of-type { border-bottom: 1px solid #424242; box-shadow: none; } 
+sj-play-button { color: white; background-color: #424242; }
+/* Search Box - Text Suggestions */
+sj-search-suggestion #queryText.sj-search-suggestion .sub-match.sj-search-suggestion { color: white; }
 sj-search-suggestion:hover, sj-search-suggestion.query-selected { background: #424242; }
-sj-search-suggestion #queryText.sj-search-suggestion .sub-match.sj-search-suggestion { color: rgba(255, 255, 255, .7); }
-.sj-search-box-1 #input.sj-search-box { color: white; }
-.sj-search-suggestion-0:hover, .sj-search-suggestion-0.query-selected {
-    background-color: #444;
-}
-.sj-entity-suggestion-0 #title.sj-entity-suggestion { color: #eee; }
-.sj-search-box-1 sj-entity-suggestion.sj-search-box:last-of-type { border-bottom: 7px solid #282828; box-shadow: none; }
-.sj-search-suggestion-0 #queryText.sj-search-suggestion .sub-match.sj-search-suggestion { color: #eee; }
-.sj-entity-suggestion-0:hover, .sj-entity-suggestion-0.query-selected { background: #444; }
 
 /* Home */
 .column .material-card .title, .recommended-header { color: white !important; }
