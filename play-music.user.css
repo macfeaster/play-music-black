@@ -182,14 +182,13 @@ paper-toolbar { background: #161616; }
 sj-mini-queue #queueContainer.sj-mini-queue, .sj-mini-queue-0 #queueContainer.sj-mini-queue { background: #212121; }
 
 /* Modals */
-.iron-overlay-backdrop-0 { background: black; }
-.paper-dialog-0 { background: #333; color: #fff; }
-.paper-input-container-0 .input-content.paper-input-container  input, .paper-input-container-0 .input-content.paper-input-container  textarea, .paper-input-container-0 .input-content.paper-input-container  iron-autogrow-textarea, .paper-input-container-0 .input-content.paper-input-container  .paper-input-input { color: white; }
+iron-overlay-backdrop { background: black; }
+paper-dialog { background: #333; color: #fff; }
+paper-input-container .input-content.paper-input-container  input, paper-input-container .input-content.paper-input-container  textarea { color: white; }
 .share-buttons .share-button .button-label { color: white; }
 .visualizercard { background: #212121; }
 .visualizercard .label { color: white; }
 .material-share-options #sharing-option-label { color: #fff; }
-.paper-input-container-0 .input-content.paper-input-container .label-and-input-container.paper-input-container > [slot="input"] { color: #ddd; }
 
 /* Listen Now etc */
 .situations-filter { background: #212121; color: white; }
