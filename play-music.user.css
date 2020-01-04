@@ -46,14 +46,13 @@ body.qp #sliding-action-bar-container { background-color: #333; color: rgba(255,
 sj-search-box { background: #111; }
 sj-search-box #searchIcon.sj-search-box { color: white !important; }
 sj-search-box #clearButton.sj-search-box { color: white; }
-sj-search-box[opened], sj-search-box[has-query] { background: #111; color: white; }
+sj-search-box[opened], sj-search-box[has-query] { background: #333; color: white; }
 sj-search-box #input.sj-search-box { color: white !important; }
-sj-search-box[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #424242; }
+sj-search-box[opened]:not([num-suggestions="0"]) #input.sj-search-box { border-bottom: 1px solid #282828; }
 /* Search Box - Song/Artist Suggestions */
 sj-entity-suggestion #title.sj-entity-suggestion { color: white; }
 sj-entity-suggestion:hover, .sj-entity-suggestion.query-selected { background: #424242; }
-sj-search-box sj-entity-suggestion.sj-search-box:last-of-type { border-bottom: 1px solid #424242; box-shadow: none; } 
-sj-play-button { color: white; background-color: #424242; }
+sj-search-box sj-entity-suggestion.sj-search-box:last-of-type { border-bottom: 7px solid #282828; box-shadow: none; } 
 /* Search Box - Text Suggestions */
 sj-search-suggestion #queryText.sj-search-suggestion .sub-match.sj-search-suggestion { color: white; }
 sj-search-suggestion:hover, sj-search-suggestion.query-selected { background: #424242; }
