@@ -1,6 +1,6 @@
 /* ==UserStyle==
 @name Google Play Music - Dark
-@version 2020.1.5
+@version 2020.1.5.2
 @description This style is not meant to mod the interface in any way, just make it black. 
 @author macfeaster
 @namespace sektor.io
@@ -46,7 +46,7 @@ body.qp #sliding-action-bar-container { background-color: #333; color: rgba(255,
 #topBar iron-icon.paper-icon-button:hover { color: #e0e0e0; }
 
 /* Search Box */
-sj-search-box { background: #111; }
+sj-search-box { background: #383838; }
 sj-search-box #searchIcon.sj-search-box { color: white !important; }
 sj-search-box #clearButton.sj-search-box { color: white; }
 sj-search-box[opened], sj-search-box[has-query] { background: #333; color: white; }
