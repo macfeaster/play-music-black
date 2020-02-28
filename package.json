@@ -1,0 +1,11 @@
+{
+   "name": "play-music-black",
+   "type": "module",
+   "version": "2020.1.5-1",
+   "scripts": {
+      "render": "node index"
+   },
+   "dependencies": {
+      "node-sass": "^4.13.1"
+   }
+}
