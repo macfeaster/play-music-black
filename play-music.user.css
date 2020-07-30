@@ -252,4 +252,7 @@ gpm-card-grid > [slot="title"] { color: white; }
 .now-playing-menu.goog-menu, .goog-menu { border: none !important; border-radius: 2px; box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37)!important; }
 .spinner { background-color: transparent !important; filter: invert(1); }
 
+/* Shortcuts */
+.shortcuts-dialog * { color: #ddd !important}
+	
 }
